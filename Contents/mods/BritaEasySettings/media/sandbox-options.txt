@@ -1,0 +1,40 @@
+VERSION = 1,
+
+option BritaEasySettings.box1
+{type = boolean, default = false, page = BritaWeaponPack, translation = BES_ShowHitDamage,}
+
+option BritaEasySettings.box2
+{type = boolean, default = false, page = BritaWeaponPack, translation = BES_ShowRangeHitPercentage,}
+
+option BritaEasySettings.dropdown3
+{type = enum, numValues = 3, default = 1, page = BritaWeaponPack, translation = BES_ShowWeaponInfo,}
+
+option BritaEasySettings.box4
+{type = boolean, default = false, page = BritaWeaponPack, translation = BES_ShowAmmunition,}
+
+option BritaEasySettings.box5
+{type = boolean, default = false, page = BritaWeaponPack, translation = BES_MovementGauge,}
+
+option BritaEasySettings.box6
+{type = boolean, default = false, page = BritaWeaponPack, translation = BES_DynamicRecoilSystem,}
+
+option BritaEasySettings.dropdown7
+{type = enum, numValues = 5, default = 1, page = BritaWeaponPack, translation = BES_DynamicRangeSystem,}
+
+option BritaEasySettings.box8
+{type = boolean, default = false, page = BritaWeaponPack, translation = BES_ResetSightPicture,}
+
+option BritaEasySettings.dropdown9
+{type = enum, numValues = 5, default = 1, page = BritaWeaponPack, translation = BES_FirearmJamFrequency,}
+
+option BritaEasySettings.box10
+{type = boolean, default = false, page = BritaWeaponPack, translation = BES_FirearmsNeverBreak,}
+
+option BritaEasySettings.dropdown11
+{type = enum, numValues = 5, default = 1, page = BritaWeaponPack, translation = BES_AttachmentBreakOnMelee,}
+
+option BritaEasySettings.dropdown12
+{type = enum, numValues = 5, default = 1, page = BritaWeaponPack, translation = BES_AttachmentBreakOnFire,}
+
+option BritaEasySettings.dropdown13
+{type = enum, numValues = 6, default = 3, page = BritaWeaponPack, translation = BES_SuppressionLevel,}
